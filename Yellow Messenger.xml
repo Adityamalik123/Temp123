@@ -95,7 +95,8 @@
                 </Control>
                 <!-- Go to http://aka.ms/ButtonCommands to learn how to add more Controls: ExecuteFunction and Menu -->
               </Group>
-                      
+                      </OfficeTab>
+                      </ExtensionPoint>
                       <ExtensionPoint xsi:type="MessageComposeCommandSurface">
   <OfficeTab id="TabDefault">
     <Group id="msgComposeCmdGroup">
@@ -118,7 +119,7 @@
       
     </Group>
   </OfficeTab>
-            </OfficeTab>
+            
                     
           </ExtensionPoint>
           <!-- Go to http://aka.ms/ExtensionPointsCommands to learn how to add more Extension Points: MessageRead, AppointmentOrganizer, AppointmentAttendee -->
