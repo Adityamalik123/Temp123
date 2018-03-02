@@ -149,6 +149,7 @@
       </bt:ShortStrings>
       <bt:LongStrings>
         <bt:String id="paneReadSuperTipDescription" DefaultValue="Work Place Assistant."/>
+                <bt:String id="ext2" DefaultValue="Work Place Assistant."/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
