@@ -95,7 +95,31 @@
                 </Control>
                 <!-- Go to http://aka.ms/ButtonCommands to learn how to add more Controls: ExecuteFunction and Menu -->
               </Group>
+                      
+                      <ExtensionPoint xsi:type="MessageComposeCommandSurface">
+  <OfficeTab id="TabDefault">
+    <Group id="msgComposeCmdGroup">
+      <Label resid="groupLabel"/>
+      <Control xsi:type="Button" id="msgComposeInsertGist">
+        <Label resid="insertGistLabel"/>
+        <Supertip>
+          <Title resid="bot"/>
+          <Description resid="bot"/>
+        </Supertip>
+        <Icon>
+          <bt:Image size="16" resid="icon16"/>
+          <bt:Image size="32" resid="icon32"/>
+          <bt:Image size="80" resid="icon80"/>
+        </Icon>
+        <Action xsi:type="ShowTaskpane">
+          <SourceLocation resid="insertGistPaneUrl" />
+        </Action>
+      </Control>
+      
+    </Group>
+  </OfficeTab>
             </OfficeTab>
+                    
           </ExtensionPoint>
           <!-- Go to http://aka.ms/ExtensionPointsCommands to learn how to add more Extension Points: MessageRead, AppointmentOrganizer, AppointmentAttendee -->
         </DesktopFormFactor>
@@ -111,6 +135,7 @@
       <bt:Urls>
         <bt:Url id="functionFile" DefaultValue="https://adityamalik123.github.io/Temp123/function-file/function-file.html"/>
         <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://adityamalik123.github.io/Temp123/index.html"/>
+                <bt:Url id="insertGistPaneUrl" DefaultValue="https://adityamalik123.github.io/Temp123/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Yellow Messenger"/>
