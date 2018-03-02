@@ -104,8 +104,8 @@
       <Control xsi:type="Button" id="msgComposeInsertGist">
         <Label resid="insertGistLabel"/>
         <Supertip>
-          <Title resid="bot"/>
-          <Description resid="bot"/>
+          <Title resid="ext1"/>
+          <Description resid="ext2"/>
         </Supertip>
         <Icon>
           <bt:Image size="16" resid="icon16"/>
@@ -141,6 +141,9 @@
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Yellow Messenger"/>
         <bt:String id="customTabLabel"  DefaultValue="Yellow Messenger"/>
+                
+                <bt:String id="insertGistLabel" DefaultValue="Bot"/>
+                <bt:String id="ext1" DefaultValue="Yellow Messenger"/>
         <bt:String id="paneReadButtonLabel" DefaultValue="Bot"/>
         <bt:String id="paneReadSuperTipTitle" DefaultValue="Yellow Messenger"/>
       </bt:ShortStrings>
